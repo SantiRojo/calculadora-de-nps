@@ -111,7 +111,11 @@ input {
     font-size: 12px;
     font-weight: 700;
 }
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 #button-container {
     width: 340px;
