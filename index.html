@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="main.css">
     <title>Calculadora de NPS</title>
 </head>
 <body>
-    
+    <div class="tittle-container">
+        <h1>Calculadora de NPS</h1>
+    </div>
+
+    <div class="app-container">
+
+        <div class="front-container">
+
+            <div class="form-container container-promotores">
+                <div class="form-tittle form-tittle-promotores">
+                    <h2>PROMOTORES</h2>
+                </div>
+                
+                <div class="input-container">
+                    <input id="input-promotores" type="number" inputmode="numeric" placeholder="Ingresa la cantidad de Promotores">
+                </div>
+            </div>
+
+            <div class="form-container container-neutros">
+                <div class="form-tittle form-tittle-neutros">
+                    <h2>NEUTROS</h2>
+                </div>
+                
+                <div class="input-container">
+                    <input id="input-neutros" type="number" inputmode="numeric" placeholder="Ingresa la cantidad de neutros">
+                </div>
+            </div>
+
+            <div class="form-container container-detractores">
+                <div class="form-tittle form-tittle-detractores">
+                    <h2>DETRACTORES</h2>
+                </div>
+                
+                <div class="input-container">
+                    <input id="input-detractores" type="number" inputmode="numeric" placeholder="Ingresa la cantidad de detractores">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="back-container">
+
+        </div>
+
+        <div id="button-container">
+        
+            <button id="calc-button">Calcular</button>
+
+        </div>
+        
+    </div>
 </body>
 </html>
