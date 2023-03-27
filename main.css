@@ -2,13 +2,14 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }
 
 body {
     background-color: #3A98B9;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -31,7 +32,6 @@ body {
 h1 {
     color: #565656;
     font-size: 30px;
-    font-weight: 700;
 }
 
 .front-container, .back-container {
@@ -109,7 +109,6 @@ input {
     border-radius: 5px;
     text-align: center;
     font-size: 12px;
-    font-weight: 700;
     color: #565656;
 }
 input::-webkit-outer-spin-button,
@@ -127,7 +126,7 @@ input::-webkit-inner-spin-button {
     box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.25);
     border: 2px solid #888686;
     border-radius: 10px;
-    offset: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,8 +142,8 @@ input::-webkit-inner-spin-button {
 }
 
 #titulo-card {
+    display: inline-block;
     font-size: 20px;
-    font-weight: 700;
     color: #FFFFFF;
 }
 
@@ -161,15 +160,68 @@ input::-webkit-inner-spin-button {
 
 #desempenio {
     font-size: 20px;
-    font-weight: 700;
     color: #565656;
 }
 
+.container-porcentaje {
+    width: 200px;
+    height: 80px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#porcentaje {
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);;
+}
+
+.sobresaliente {
+    background-color: #74A567;
+    border-color: #5C924E;
+}
+
+.adecuado{
+    background-color: #91C483;
+    border-color: #589348;
+}
+
+.a-mejorar{
+    background-color: #ECD36B;
+    border-color: #DFBE34;
+}
+
+.inadecuado{
+    background-color: #F37979;
+    border-color: #D76565;
+}
+
+
+.container-objetivo {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mensaje {
+    font-size: 25px;
+    color: #565656;
+}
+
+#mensaje-objetivo {
+    padding: 0px 32px;
+    font-size: 15px;
+    text-align: center;
+    color: #565656;
+}
 
 /* Estilos botones */
 
 #button-container {
-    width: 340px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
