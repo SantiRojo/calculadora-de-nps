@@ -5,6 +5,20 @@ const inputPromotores = document.querySelector('#input-promotores');
 const inputNeutros = document.querySelector('#input-neutros');
 const inputDetractores = document.querySelector('#input-detractores');
 
-let promotores = inputPromotores.value;
-let neutros = inputNeutros.value;
-let detractores = inputDetractores.value;
+
+let promotores;
+let neutros;
+let detractores;
+
+
+inputPromotores.addEventListener('change', () => {
+    promotores = inputPromotores.value;
+});
+
+inputNeutros.addEventListener('change', () => {
+    neutros = inputNeutros.value;
+});
+
+inputDetractores.addEventListener('change', () => {
+    detractores = inputDetractores.value;
+});
