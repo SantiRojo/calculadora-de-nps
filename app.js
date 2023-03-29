@@ -21,27 +21,35 @@ let promotores;
 let neutros;
 let detractores;
 
-
-inputPromotores.addEventListener('change', () => {
-    promotores = parseInt(inputPromotores.value);
-    console.log(promotores)
-});
-
-inputNeutros.addEventListener('change', () => {
-    neutros = parseInt(inputNeutros.value); 
-    console.log(neutros)
-});
-
-inputDetractores.addEventListener('change', () => {
-    detractores = parseInt(inputDetractores.value);
-    console.log(detractores)
-});
-
-
-calcButton.addEventListener('click', () => {
+const animar = () => {
     frontContainer.classList.toggle('front-rotate');
     backContainer.classList.toggle('back-rotate');
     calcButton.classList.toggle('cerrar');
     calcular.classList.toggle('inactive');
     cerrar.classList.toggle('inactive');
+}
+
+
+
+inputPromotores.addEventListener('input', () => {
+    promotores = parseInt(inputPromotores.value);
+    isButtonOn()
+    console.log(promotores)
+});
+
+inputNeutros.addEventListener('input', () => {
+    neutros = parseInt(inputNeutros.value); 
+    isButtonOn()
+    console.log(neutros)
+});
+
+inputDetractores.addEventListener('input', () => {
+    detractores = parseInt(inputDetractores.value);
+    isButtonOn()
+    console.log(detractores)
+});
+
+
+calcButton.addEventListener('click', () => {
+    animar();
 });

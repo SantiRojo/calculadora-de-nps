@@ -274,6 +274,21 @@ input::-webkit-inner-spin-button {
     transition: ease-in-out 300ms;
 }
 
+.button-on {
+    background-color: #6FB75B;
+    border-right: 3px solid #3B8527;
+    border-bottom: 3px solid #3B8527;
+    color: #EFEFEF;
+    text-shadow: 1.5px 1.5px 3px #438332;
+}
+
+.button-off {
+    background-color: #a7a7a7;
+    border-right: 3px solid #727272;
+    border-bottom: 3px solid #727272;
+    text-shadow: 1.5px 1.5px 3px #727272;
+}
+
 #cerrado {
     font-size: 50px;
 }
@@ -286,10 +301,8 @@ input::-webkit-inner-spin-button {
     border-bottom: 3px solid #C34444;
     border-radius: 50%;
     box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.25);
-    
 }
 
 .inactive {
-    opacity: 0%;
     display: none;
 }
