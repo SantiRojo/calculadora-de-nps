@@ -160,7 +160,7 @@ input::-webkit-inner-spin-button {
     align-items: center;
 }
 
-#container-titulo-card {
+.container-titulo-card {
     width: 265px;
     height: 50px;
     display: flex;
@@ -169,7 +169,7 @@ input::-webkit-inner-spin-button {
     border-bottom: 2px solid;
 }
 
-#titulo-card {
+.titulo-card {
     display: inline-block;
     font-size: 20px;
     color: #FFFFFF;
@@ -191,14 +191,14 @@ input::-webkit-inner-spin-button {
     color: #565656;
 }
 
-#container-porcentaje {
+.container-porcentaje {
     width: 200px;
     height: 80px;
     border: 2px solid;
     border-radius: 10px;
 }
 
-#porcentaje {
+.porcentaje {
     font-size: 60px;
     text-align: center;
     color: #FFFFFF;
@@ -212,7 +212,7 @@ input::-webkit-inner-spin-button {
 
 .adecuado{
     background-color: #91C483;
-    border-color: #589348;
+    border-color: #70B05F;
 }
 
 .a-mejorar{
