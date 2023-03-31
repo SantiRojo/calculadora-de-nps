@@ -146,7 +146,7 @@ calcButton.addEventListener('click', () => {
     containerTituloDesempenio.classList.toggle(resultadoMetrica[0].estilos);
     tituloCard.innerText = resultadoMetrica[0].resultado;
     containerPorcentaje.classList.toggle(resultadoMetrica[0].estilos);
-    porcentaje.innerText = `${desempenio}%`;
+    porcentaje.innerText = `${cumplimientoObjetivo}%`;
     mensaje.innerText = resultadoMetrica[0].mensaje;
 
     animar();
