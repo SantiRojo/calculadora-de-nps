@@ -19,7 +19,7 @@ const calcButton = document.querySelector('#calc-button');
 const calcular = document.querySelector('#calcular');
 const cerrar = document.querySelector('#cerrado');
 
-const objetivo = 65;
+const objetivo = 60;
 
 let promotores;
 let neutros;
